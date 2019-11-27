@@ -1,0 +1,15 @@
+name: WinDooMBlackjack
+version: 1.0
+api-version: 1.13
+authors:
+  - CoolGamrSms
+main: com.shaneschulte.plugins.windoomblackjack.WinDooMBlackjack
+description: Blackjack plugin for casino
+depend: [Vault]
+commands:
+  21:
+    description: Alias for /blackjack.
+    usage: /21
+  blackjack:
+    description: Blackjack setup commands.
+    usage: /blackjack
